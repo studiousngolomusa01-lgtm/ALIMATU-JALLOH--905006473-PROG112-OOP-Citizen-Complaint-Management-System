@@ -2,7 +2,7 @@
 
 A small, beginner-friendly Python program that lets citizens submit complaints to a government office and lets staff track them. It was written for **PROG211 – Object-Oriented Programming 1** and is designed around Digital Public Good (DPG) principles: open source, accessible, privacy-respecting, modular and reusable.
 
-> **Educational demo.** Records are held in memory only and are lost when the program exits. Do not enter real personal or sensitive data.
+
 
 ## Features
 
@@ -69,7 +69,7 @@ TOTAL COMPLAINTS CREATED: 3
 | `Complaint` | Holds a complaint, validates and updates its status, and keeps a class-level count of complaints created. |
 | `GovernmentComplaintSystem` | Stores complaints in a list; adds (with duplicate check), displays and searches them. |
 
-## Usage in your own code
+## Usage in the  code
 
 ```python
 from citizen_complaint_system import Citizen, Complaint, GovernmentComplaintSystem
